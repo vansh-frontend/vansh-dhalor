@@ -1,84 +1,115 @@
 body {
   font-family: Arial, sans-serif;
-  /* background-color: #f4f4f4; */
   background-image: url("https://source.unsplash.com/random/1920x1080"); /* Background image */
   background-size: cover;
   background-position: center;
   margin: 0;
-  
   padding: 0;
+  color: #fff;
 }
 form {
   width: 80%;
+  max-width: 600px; /* Max width for larger screens */
   margin: 50px auto;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6); /* Slightly darker background */
   padding: 40px;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px 0px rgba(71, 53, 53, 0.1);
+  border-radius: 10px; /* Slightly more rounded corners */
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
+  backdrop-filter: blur(10px); /* Blur background behind form */
 }
 h2 {
   text-align: center;
   margin-bottom: 30px;
   color: #f8f8f8;
+  font-size: 24px; /* Larger font size for heading */
+  font-weight: bold;
 }
 label {
   display: block;
   margin-bottom: 10px;
   color: #f8f8f8;
-  font-size: 16px;
+  font-size: 18px; /* Larger font size for labels */
 }
 input[type="text"],
 input[type="email"],
 textarea {
   width: 100%;
-  padding: 12px;
+  padding: 15px; /* More padding for inputs */
   margin-bottom: 20px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 5px; /* Slightly more rounded corners */
   box-sizing: border-box;
   font-size: 16px;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Slightly transparent background for inputs */
+  color: #333;
 }
 textarea {
   height: 150px;
 }
 input[type="submit"] {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px; /* Slightly more rounded corners */
   cursor: pointer;
-  padding: 12px 20px;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
+  padding: 15px 20px; /* More padding for button */
+  font-size: 18px; /* Larger font size for button */
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 input[type="submit"]:hover {
   background-color: #45a049;
+  transform: scale(1.05); /* Slightly larger on hover */
 }
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
   form {
-      width: 90%;
+    width: 90%;
+    padding: 30px; /* Less padding on smaller screens */
+  }
+  h2 {
+    font-size: 22px;
   }
   label {
-      font-size: 14px;
+    font-size: 16px;
   }
   input[type="text"],
   input[type="email"],
   textarea {
-      font-size: 14px;
+    font-size: 14px;
+    padding: 12px; /* Adjusted padding for inputs */
   }
   input[type="submit"] {
-      font-size: 14px;
+    font-size: 16px;
+    padding: 12px 18px; /* Adjusted padding for button */
   }
 }
 
 /* Additional responsive styles */
 @media screen and (max-width: 480px) {
   form {
-      padding: 20px;
+    padding: 20px; /* Less padding on very small screens */
+  }
+  h2 {
+    font-size: 20px;
+  }
+  label {
+    font-size: 14px;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 14px;
+    padding: 10px; /* Adjusted padding for inputs */
   }
   input[type="submit"] {
-      width: 100%;
+    font-size: 14px;
+    padding: 10px 16px; /* Adjusted padding for button */
+    width: 100%; /* Full width button on very small screens */
   }
 }
