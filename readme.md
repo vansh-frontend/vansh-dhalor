@@ -1,13 +1,9 @@
  # Portfolio Site <img src="https://github.com/vansh-frontend/vansh-dhalor/assets/129588751/a7f0f58d-bd63-4c56-8631-9a7c2f004629" alt="titleicons" width="100">
 
-<h2>Demo Screenshot</h2>
-![image](https://github.com/vansh-frontend/vansh-dhalor/assets/129588751/2c94e1d7-81c6-4afe-a2cc-92b33235c6d4)
+### Demo Screeshots
 
+![image](https://github.com/vansh-frontend/vansh-dhalor/assets/129588751/7adf7ae6-a20f-4fac-93c9-f558c0559ef2)
 
-
- 
-
- 
 Welcome to my personal portfolio website! This site showcases my skills, projects, and professional background.
 
 ## Features
