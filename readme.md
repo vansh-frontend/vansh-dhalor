@@ -1,6 +1,9 @@
  # Portfolio Site <img src="https://github.com/vansh-frontend/vansh-dhalor/assets/129588751/a7f0f58d-bd63-4c56-8631-9a7c2f004629" alt="titleicons" width="100">
 
- <img src="C:\Users\ASUS\Pictures\Screenshots\Screenshot 2024-07-04 191451.png" alt="titleicons" width="100">
+ <img src="https://github.com/vansh-frontend/vansh-dhalor/assets/129588751/d26a486b-4281-4812-a0ac-5dc2fc7e98f7" alt="titleicons" width="100">
+
+
+ 
 
  
 Welcome to my personal portfolio website! This site showcases my skills, projects, and professional background.
