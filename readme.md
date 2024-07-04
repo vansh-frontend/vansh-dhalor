@@ -1,6 +1,8 @@
  # Portfolio Site <img src="https://github.com/vansh-frontend/vansh-dhalor/assets/129588751/a7f0f58d-bd63-4c56-8631-9a7c2f004629" alt="titleicons" width="100">
 
- <img src="https://github.com/vansh-frontend/vansh-dhalor/assets/129588751/d26a486b-4281-4812-a0ac-5dc2fc7e98f7" alt="titleicons" width="500">
+<h2>Demo Screenshot</h2>
+![image](https://github.com/vansh-frontend/vansh-dhalor/assets/129588751/2c94e1d7-81c6-4afe-a2cc-92b33235c6d4)
+
 
 
  
