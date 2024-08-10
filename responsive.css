@@ -41,7 +41,6 @@
   }
 
   nav .right a:last-child {
-    color: var(--text-color);
     background-color: transparent;
     padding: 0;
   }
