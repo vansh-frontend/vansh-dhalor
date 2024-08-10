@@ -12,25 +12,25 @@ form {
   width: 80%;
   max-width: 600px;
   margin: 50px auto;
-  background: rgba(255, 255, 255, 0.8); /* Light background for the form */
+  background: rgba(255, 255, 255, 0.8); 
   padding: 40px;
-  border-radius: 12px; /* Slightly more rounded corners */
-  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3); /* Enhanced shadow for a more modern look */
-  backdrop-filter: blur(12px); /* Slightly stronger blur effect */
+  border-radius: 12px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3); 
+  backdrop-filter: blur(12px);
 }
 
 h2 {
   text-align: center;
   margin-bottom: 30px;
-  color: #333; /* Darker text color for better readability */
-  font-size: 26px; /* Larger font size for the heading */
+  color: #333; 
+  font-size: 26px; 
   font-weight: bold;
 }
 
 label {
   display: block;
   margin-bottom: 12px;
-  color: #333; /* Darker text color for labels */
+  color: #333; 
   font-size: 18px;
 }
 
@@ -40,11 +40,11 @@ textarea {
   width: 100%;
   padding: 15px;
   margin-bottom: 20px;
-  border: 1px solid #ddd; /* Lighter border color */
-  border-radius: 8px; /* More rounded corners for inputs */
+  border: 1px solid #ddd; 
+  border-radius: 8px;
   box-sizing: border-box;
   font-size: 16px;
-  background: rgba(255, 255, 255, 0.9); /* Slightly transparent background for inputs */
+  background: rgba(255, 255, 255, 0.9); 
   color: #333;
 }
 
@@ -53,19 +53,19 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #3498db; /* Primary color for the button */
+  background-color: #3498db; 
   color: white;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  padding: 15px 25px; /* Adjusted padding for the button */
+  padding: 15px 25px; 
   font-size: 18px;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 input[type="submit"]:hover {
-  background-color: #2980b9; /* Darker shade on hover */
-  transform: scale(1.05); /* Slightly larger on hover */
+  background-color: #2980b9; 
+  transform: scale(1.05); 
 }
 
 /* Responsive styles */
