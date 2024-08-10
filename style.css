@@ -30,7 +30,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #ffffff;
+  background: linear-gradient(135deg, #232526, #414345);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,10 +56,6 @@
   }
 }
 
-.hidden {
-  display: none;
-}
-
 /* pre loader */
 html {
   scroll-behavior: smooth;
@@ -78,6 +74,7 @@ a {
    color: #f8f8f8;
   text-decoration: none;
 }
+
 
 /* NAVBAR */
 nav {
@@ -163,24 +160,24 @@ nav .right a span {
   display: flex;
   justify-content: right;
 }
-
-.hero-section .headshot img {
-  width: 350px;
+.headshot img {
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   animation: fadeIn 2s ease-out forwards;
 }
 
+/* Animation for fade-in and scale effect */
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: scale(0.8);  
+    transform: scale(0.8);
   }
   100% {
     opacity: 1;
     transform: scale(1);
   }
 }
-
 @keyframes slideUp {
   0% {
     opacity: 0;
@@ -193,6 +190,42 @@ nav .right a span {
 }
 
 /* SECTION 2: Skills */
+#html{
+
+  color: orange;
+}
+#css{
+  color: #4a76ee;
+}
+#js{
+  color: yellow;
+ 
+}
+
+#sql{
+  color:cornflowerblue
+}
+#php{
+  color: rgb(208, 58, 208);
+}
+#Linux{
+  color: red; 
+}
+
+#c,#cpp{
+  color:blue;
+}
+#git{
+  color: peru;
+}
+
+#github{
+  color: #f8f8f8;
+}
+
+#dsa{
+  color:yellow;
+}
 .skills-section {
   padding: 0 50px;
   margin-bottom: 100px;

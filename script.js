@@ -11,6 +11,6 @@ window.addEventListener("load", () => {
 
   setTimeout(() => {
     preloader.style.display = "none";
-    content.classList.remove("hidden");
-  }, 2000);
+    // content.classList.remove("hidden");
+  }, 2000); 
 });

@@ -1,6 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
-  background-image: url("https://source.unsplash.com/random/1920x1080"); /* Background image */
+  font-family: Arial, sans-serif;/* Background image */
   background-size: cover;
   background-position: center;
   margin: 0;
