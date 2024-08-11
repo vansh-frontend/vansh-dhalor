@@ -10,6 +10,7 @@
   box-sizing: border-box;
   animation: slideUp 3s ease-out forwards;
   animation: fadeIn 4s ease-out forwards;
+  user-select: none;
 
 }
 
