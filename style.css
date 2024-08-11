@@ -100,14 +100,9 @@ nav .left a {
 nav .right a {
   color: #eeeff1;
   margin: 0 10px;
+  
 }
 
-nav .right a:hover {
-  color: #eeeff1;
-  background-color: var(--text-color);
-  padding: 5px 15px;
-  border-radius: 5px;
-}
 
 
 nav .right a:last-child {
@@ -115,6 +110,7 @@ nav .right a:last-child {
   background-color: var(--text-color);
   padding: 5px 15px;
   border-radius: 5px;
+  
 }
 
 nav .right a span {
