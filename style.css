@@ -8,6 +8,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  animation: slideUp 3s ease-out forwards;
+  animation: fadeIn 4s ease-out forwards;
+
 }
 
 ::-webkit-scrollbar {
@@ -68,6 +71,7 @@ body {
   color: #d3d3d3;
   max-width: 1400px;
   margin: 0 auto;
+ 
 }
 
 a {
@@ -164,8 +168,20 @@ nav .right a span {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  animation: fadeIn 2s ease-out forwards;
+  animation: fadeIn 5s ease-out forwards;
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 
 /* Animation for fade-in and scale effect */
 @keyframes fadeIn {
@@ -178,6 +194,7 @@ nav .right a span {
     transform: scale(1);
   }
 }
+
 @keyframes slideUp {
   0% {
     opacity: 0;
@@ -238,9 +255,8 @@ nav .right a span {
 
 .skills-section .text {
   text-align: center;
-  margin-bottom: 20px;
-
-  animation: slideUp 1s ease-out forwards;
+  margin-bottom: 20px;  
+  animation: slideUp 5s ease-out forwards;
 }
 
 .skills-section .cells {
@@ -291,7 +307,7 @@ nav .right a span {
   align-items: center;
   gap: 50px;
 
-  animation: slideUp 1s ease-out forwards;
+  animation: slideUp 5s ease-out forwards;
 }
 
 .testimony-section .group .person-details {
@@ -327,6 +343,7 @@ nav .right a span {
 
 .contact-section h2 {
   font-size: 35px;
+  animation: slideUp 5s ease-out forwards;
 }
 
 .contact-section .group {
@@ -337,6 +354,8 @@ nav .right a span {
 .contact-section .group .text {
   flex: 3;
   margin-top: 20px;
+
+  animation: slideUp 5s ease-out forwards;
 }
 
 .contact-section .group form {
@@ -381,17 +400,20 @@ nav .right a span {
 .project-section h2 {
   text-align: center;
   font-size: 35px;
+  animation: slideUp 5s ease-out forwards;
 }
 
 .project-section .text {
   text-align: center;
   margin-bottom: 20px;
+  animation: slideUp 5s ease-out forwards;
 }
 
 .project-section .cellss {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  animation: slideUp 5s ease-out forwards;
 }
 
 .project-section .cellss .cell1 {
