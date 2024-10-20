@@ -1,115 +1,135 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #ddd;
-  background-size: cover;
-  background-position: center;
-  margin: 0;
-  padding: 0;
-  color: #fff;
+.contact-section {
+  padding: 50px 5%;
 }
 
-form {
-  width: 80%;
-  max-width: 600px;
-  margin: 50px auto;
-  background: rgba(255, 255, 255, 0.8); 
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.contact-text {
+  width: 45%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.contact-form {
+  width: 50%;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.8);
   padding: 40px;
   border-radius: 12px;
-  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3); 
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(12px);
 }
 
-h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  color: #333; 
-  font-size: 26px; 
-  font-weight: bold;
+.contact-form-group {
+  margin-bottom: 20px;
 }
 
-label {
+.contact-form-group label {
   display: block;
   margin-bottom: 12px;
-  color: #333; 
+  color: #333;
   font-size: 18px;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
+.contact-form-group input[type="text"],
+.contact-form-group input[type="email"],
+.contact-form-group textarea {
   width: 100%;
   padding: 15px;
-  margin-bottom: 20px;
-  border: 1px solid #ddd; 
+  border: 1px solid #ddd;
   border-radius: 8px;
   box-sizing: border-box;
   font-size: 16px;
-  background: rgba(255, 255, 255, 0.9); 
+  background: rgba(255, 255, 255, 0.9);
   color: #333;
 }
 
-textarea {
+.contact-form-group textarea {
   height: 150px;
+  resize: vertical;
 }
 
-input[type="submit"] {
-  background-color: #3498db; 
+.contact-submit-btn {
+  background-color: #3498db;
   color: white;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  padding: 15px 25px; 
+  padding: 15px 25px;
   font-size: 18px;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-input[type="submit"]:hover {
-  background-color: #2980b9; 
-  transform: scale(1.05); 
+.contact-submit-btn:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
 }
 
 /* Responsive styles */
+@media screen and (max-width: 1024px) {
+  .contact-text, .contact-form {
+    width: 100%;
+    max-width: none;
+  }
+  
+  .contact-text {
+    margin-bottom: 30px;
+  }
+}
+
 @media screen and (max-width: 768px) {
-  form {
-    width: 90%;
+  .contact-section {
+    padding: 30px 5%;
+  }
+
+  .contact-form {
     padding: 30px;
   }
-  h2 {
-    font-size: 24px;
-  }
-  label {
+
+  .contact-form-group label {
     font-size: 16px;
   }
-  input[type="text"],
-  input[type="email"],
-  textarea {
+
+  .contact-form-group input[type="text"],
+  .contact-form-group input[type="email"],
+  .contact-form-group textarea {
     font-size: 15px;
     padding: 14px;
   }
-  input[type="submit"] {
+
+  .contact-submit-btn {
     font-size: 16px;
     padding: 14px 22px;
   }
 }
 
-/* Additional responsive styles */
 @media screen and (max-width: 480px) {
-  form {
+  .contact-section {
+    padding: 20px 5%;
+  }
+
+  .contact-form {
     padding: 20px;
   }
-  h2 {
-    font-size: 22px;
-  }
-  label {
+
+  .contact-form-group label {
     font-size: 14px;
   }
-  input[type="text"],
-  input[type="email"],
-  textarea {
+
+  .contact-form-group input[type="text"],
+  .contact-form-group input[type="email"],
+  .contact-form-group textarea {
     font-size: 14px;
     padding: 12px;
   }
-  input[type="submit"] {
+
+  .contact-submit-btn {
     font-size: 15px;
     padding: 12px 20px;
     width: 100%;

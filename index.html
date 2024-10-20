@@ -7,6 +7,7 @@
     <title>Vansh Dhalor</title>
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="forms.css" />
     <link rel="stylesheet" href="responsive.css" />
     <link rel="icon" href="img/titleicons.png" />
 
@@ -56,7 +57,7 @@
           <span>Linkedin</span>
         </a>
 
-        <a href="forms.html">
+        <a href="mailto:vanshdhalor04@gmail.com">
           <i class="fa-solid fa-envelope"></i>
           <span>Email</span>
         </a>
@@ -365,15 +366,35 @@
       <!-- SECTION 4: Contact -->
       <section id="contact" class="contact-section">
         <h2>Contact</h2>
-
-        <div class="group">
-          <div class="text">
+      
+        <div class="contact-container">
+          <div class="contact-text">
             Have a query or a project you'd like to discuss? Fill out the form
             below, and I'll get back to you as soon as possible. Your message is
             important to me, and I'm eager to connect and collaborate with you.
           </div>
-
-          <script src="https://sheetdb.io/s/f/jfqf1vzk6lrtr.js"></script>
+      
+          <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <input
+              type="hidden"
+              name="access_key"
+              value="6aa99d94-6385-47ea-af98-84a0e261f23d"
+            />
+        
+            <div class="contact-form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="contact-form-group">
+              <label for="email">Email Address:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="contact-form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <input type="submit" value="Submit" class="contact-submit-btn" />
+          </form>
         </div>
       </section>
     </main>
